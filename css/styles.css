@@ -465,9 +465,6 @@ ol {
   border-color: var(--hover-focus-color);
 }
 
-.customers-block {
-}
-
 .customers-block-item {
   fill: currentColor;
 }
