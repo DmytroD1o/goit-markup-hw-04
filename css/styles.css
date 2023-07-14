@@ -460,7 +460,8 @@ ol {
   fill: var(--hover-focus-color);
 }
 
-.customers-links:is(:hover, :focus) {
+.customers-links:is(:hover, :focus){
+  fill: var(--hover-focus-color);
   border-color: var(--hover-focus-color);
 }
 
