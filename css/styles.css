@@ -555,11 +555,11 @@ ol {
 }
 
 .develop-overlay:hover .develop-subtitle-overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
-.develop-overlay:focus .develop-subtitle-overlay {
-  transform: translateY(0)
+.develop-item-link:focus .develop-subtitle-overlay {
+  transform: translateY(0%);
 }
 
 
