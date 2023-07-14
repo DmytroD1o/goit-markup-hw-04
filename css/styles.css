@@ -468,7 +468,7 @@ ol {
 }
 
 .customers-block-item {
-  fill: var(--customers-image-color);
+  fill: currentColor;
 }
 
 
