@@ -554,9 +554,14 @@ ol {
   overflow: hidden;
 }
 
-.develop-overlay:is(:hover, :focus) .develop-subtitle-overlay {
+.develop-overlay:hover .develop-subtitle-overlay {
   transform: translateY(0);
 }
+
+.develop-overlay:focus .develop-subtitle-overlay {
+  transform: translateY(0);
+}
+
 
 .develop-subtitle-overlay {
   position: absolute;
@@ -570,7 +575,7 @@ ol {
   height: 100%;
   width: 100%;
   padding: 40px 32px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   transform: translateY(100%);
 }
 
