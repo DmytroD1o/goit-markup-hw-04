@@ -324,14 +324,15 @@ ol {
   margin-top: 8px;
 }
 
-.team-social-links {
-  fill: var(--third-color);
+.team-socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
-.team-socials-list {
-  justify-content: center;
-  display: flex;
-  gap: 24px;
+.team-socials-list-item {
+  width: 40px;
+  height: 40px;
 }
 
 .team-link-socials {
@@ -340,27 +341,15 @@ ol {
   width: 100%;
   height: 100%;
   background-color: var(--herobutton-bckgnd-color);
-  display: flex;
   width: 40px;
   height: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-.team-link-socials:hover,
-.team-link-socials:focus{ 
-  background-color: var(--hover-focus-color);
-}
-
-.team-socials-block {
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  fill: var(--portfolio-btns-bckgnd-color);
-  background-color: var(--herobutton-bckgnd-color);
-  transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  justify-content: center;
+}
+
+.team-link-socials:is(:hover, :focus) .teamr-socials-item{  
+  background-color: var(--hover-focus-color);
 }
 
 .team-container {
@@ -382,7 +371,7 @@ ol {
 }
 
 .team-decsr-container {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-section-item {
