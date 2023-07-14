@@ -436,8 +436,6 @@ ol {
 
 .customers-item {
   width: calc((100% - 120px) / 6);
-  border-radius: 4px;
-  border: 1px solid var(--customers-image-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -458,19 +456,12 @@ ol {
   align-items: center;
 }
 
-.customers-link:is(:hover, :focus) {
-  color: var(--hover-focus-color);
-  border-color: var(--hover-focus-color);
-}
-
-.customers-links:hover {
-  border-color: var(--hover-focus-color);
+.customers-links:is(:hover, :focus) .customers-block-item {
   fill: var(--hover-focus-color);
 }
 
-.customers-links:focus {
+.customers-links:is(:hover, :focus) {
   border-color: var(--hover-focus-color);
-  fill: var(--hover-focus-color);
 }
 
 .customers-block {
