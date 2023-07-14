@@ -458,10 +458,11 @@ ol {
 
 .customers-links:is(:hover, :focus) .customers-block-item {
   fill: var(--hover-focus-color);
+  border-color: var(--hover-focus-color);
 }
 
 .customers-links:is(:hover, :focus){
-  fill: var(--hover-focus-color);
+  color: var(--hover-focus-color);
   border-color: var(--hover-focus-color);
 }
 
