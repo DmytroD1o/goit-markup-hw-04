@@ -559,7 +559,7 @@ ol {
 }
 
 .develop-overlay:focus .develop-subtitle-overlay {
-  transform: translateY(0);
+  transform: translateY(0)
 }
 
 
