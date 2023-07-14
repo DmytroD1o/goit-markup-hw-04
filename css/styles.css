@@ -554,14 +554,9 @@ ol {
   overflow: hidden;
 }
 
-.develops-item-link:hover .develop-subtitle-overlay {
+.develops-item-link:is(:hover, :focus) .develop-subtitle-overlay {
   transform: translateY(0%);
 }
-
-.develops-item-link:focus .develop-subtitle-overlay {
-  transform: translateY(0%);
-}
-
 
 
 .develop-subtitle-overlay {
