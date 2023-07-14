@@ -554,11 +554,11 @@ ol {
   overflow: hidden;
 }
 
-.develop-overlay:hover .develop-subtitle-overlay {
+.develops-item-link:hover .develop-subtitle-overlay {
   transform: translateY(0%);
 }
 
-.develop-overlay:focus .develop-subtitle-overlay {
+.develops-item-link:focus .develop-subtitle-overlay {
   transform: translateY(0%);
 }
 
